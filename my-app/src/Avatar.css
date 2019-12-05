@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu&display=swap');
+.mainpage
+{
+    width:90%;
+    height:100vh;
+    margin:auto;
+    font-family: 'Gaegu', cursive;
+
+}
+.mainpage h1
+{
+    text-align: center;
+    padding: 20px 0;
+    margin:0;
+
+}
+.avatarstyle img
+{
+    width:200px; height:200px;
+}
