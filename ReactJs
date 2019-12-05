@@ -1,1 +1,37 @@
+1.What is React?
+ReactJS is a declarative, efficient,open-source, and flexible JavaScript library for building reusable UI components. 
+Which is responsible only for the view layer of the application.
 
+2.History Of React?
+Developed and maintained by Facebook and later used in 
+its products like WhatsApp & Instagram.
+
+3.Advantages >>
+   Why ReactJS?
+   ReactJS is to develop User Interfaces (UI) that improves the speed of the apps. It uses virtual DOM
+  (JavaScript object), which improves the performance of the app. The JavaScript virtual DOM is faster than the regular DOM.
+  We can use ReactJS on the client and server-side as well as with other frameworks.
+  It uses component and data patterns that improve readability and helps to maintain larger.
+
+4.How to install and run locally
+  Ways to install ReactJS
+  There are two ways to set up  ReactJS application.
+    1.Using the npm command
+     Using the npm command
+      Download Node Js from this link  https://nodejs.org/en/download/
+     >>Npx create-react-app my-app
+     >>cd my-app
+     
+     Npx comes with 5.2 or higher
+     
+     Install NodeJS and NPM
+
+5.Components and its types
+6. Use of css in React
+7.Use Tachyons|Google Fonts
+8.ArrayMap ,Props, States
+  props
+  >> Props get passed to the component
+  >>Props are imutable and cannot be changed/modify
+  >>props functional components
+  this.props - class components.
