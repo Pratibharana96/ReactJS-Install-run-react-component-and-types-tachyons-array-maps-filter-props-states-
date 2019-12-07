@@ -1,0 +1,131 @@
+Example of Class and how to use Extends and super in it javascript.
+                                                               1.Class
+                           ************************************Start*************************************** 
+ class Human{
+  //constructer
+  constructor(){
+    
+    this.gender= 'male';
+  }
+  //method
+  printgender()
+  {
+    console.log(this.gender);
+  }
+}
+
+
+
+class Person extends Human{
+
+//property
+  constructor(){
+  super();
+  this.name='max';
+   this.gender= 'female';
+  }
+  //method
+  printmyname()
+{
+  console.log(this.name);
+}
+}
+
+const person = new Person();
+person.printmyname();
+person.printgender();
+                             ************************************End*************************************** 
+Output>> "max"
+         "female"
+           
+
+Example of Classes Properties and Method and how to use Extends and super in react ES6 Babel latest version.
+                                                   2.Classes Properties and Method
+                           ************************************Start***************************************   
+                           
+                           class Human{
+                                //constructer
+                                gender = 'male';
+
+                                //method
+                                printgender =() =>
+                                {
+                                  console.log(this.gender);
+                                }
+                              }
+  
+
+
+                              class Person extends Human{
+
+                              //property
+
+                                  name='max';
+                                 gender= 'female';
+
+                                //method
+                                printmyname= () =>
+                              {
+                                console.log(this.name);
+                              }
+                              }
+
+                              const person = new Person();
+                              person.printmyname();
+                              person.printgender();
+       
+
+                            ************************************End*************************************** 
+         
+         Output>> "max"
+         "female"
+ 
+Example of Spread and Rest Operators and how to use in react.
+                                                      3.Spread and Rest Operators
+                           ************************************Start*************************************** 
+                       const person ={
+  
+                            name:'max'
+                          };
+                          const newPerson = {
+
+                            ...person ,
+                            age:24 
+                          }
+                          console.log (newPerson);
+
+                          const numbers= {1,2,3};
+                          const newNumbers = {...numbers, 4 };
+                          console.log (newNumbers);    
+                           
+                             ************************************End*************************************** 
+Output>> age:24
+         name:max
+         [1,2,3,4]
+         
+         
+  
+Example of Spread and Rest Operators and how to use  javascript.
+ 
+                                                       4.Destructing
+                           ************************************Start*************************************** 
+                       const person ={
+  
+                            name:'max'
+                          };
+                          const newPerson = {
+
+                            ...person ,
+                            age:24 
+                          }
+                          console.log (newPerson);
+
+                          const numbers= {1,2,3};
+                          const newNumbers = {...numbers, 4 };
+                          console.log (newNumbers);    
+                           
+                             ************************************End*************************************** 
+Output>> age:24
+         name:max
+         [1,2,3,4]
+         
