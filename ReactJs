@@ -21,6 +21,7 @@ its products like WhatsApp & Instagram.
       Download Node Js from this link  https://nodejs.org/en/download/
      >>Npx create-react-app my-app
      >>cd my-app
+     >>npm runapp
      
      Npx comes with 5.2 or higher
      
